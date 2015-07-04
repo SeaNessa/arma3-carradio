@@ -4,7 +4,7 @@
 // 
 // Author: Sean (github.com/SeaNessa)
 /////////////////////
-switch (playerside) do {
+switch (playMusic) do {
 	case donaldtrump {
 					//File
 					file	"\a3l_carradio\sounds\donaldtrump.ogg";
