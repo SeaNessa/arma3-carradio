@@ -1,4 +1,4 @@
-  class radioHUD
+	class radioHUD
    	{
 		idd=-1;
 		movingEnable=0;
@@ -25,7 +25,7 @@
 			class volume
 			{
 				type=0;
-				idc=23500;
+				idc=23520;
 				style=0;
 				x=-1;
 				y=-1;
