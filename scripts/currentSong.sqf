@@ -5,9 +5,9 @@
 	Author: Sean (github.com/SeaNessa)
 */
 
+if (life_radioOn == true) exitWith {};
 
-/*
-switch () do {
+class Songs {
 	case donaldtrump {
 					file	"\a3l_carradio\sounds\donaldtrump.ogg";
 					volume	"1.0";
@@ -19,4 +19,3 @@ switch () do {
 					number	"0";
 	};
 };
-*/
