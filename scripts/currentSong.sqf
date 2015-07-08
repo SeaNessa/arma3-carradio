@@ -4,7 +4,10 @@
 	
 	Author: Sean (github.com/SeaNessa)
 */
-switch (playMusic) do {
+
+
+/*
+switch () do {
 	case donaldtrump {
 					file	"\a3l_carradio\sounds\donaldtrump.ogg";
 					volume	"1.0";
@@ -16,3 +19,4 @@ switch (playMusic) do {
 					number	"0";
 	};
 };
+*/
