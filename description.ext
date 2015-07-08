@@ -1,11 +1,23 @@
 //later on getting added to original description or getting deleted and will be overwritten with a config.bin: in case of making it an addon
-class cfgMusic
+/* class cfgMusic
 {
-	tracks[] = {}; //unbekannte funktion
-	class donaldtrump //abrufname?
+	tracks[] = {};
+	class donaldtrump //abrufname
 	{
-		name = "donaldtrump"; //abrufname?
+		name = "donaldtrump";
 		sound[] = {"\radio\sounds\donaldtrump.ogg", db+7, 1}; //db kann von -10 zu 10 reichen sonst fadeSound deaktivierung
 		titles[] = {}; //text beim abspielen des sounds
+	};
+};
+*/
+
+class CfgSounds
+{
+	sounds[] = {};
+	class donaldtrump
+	{
+		name = "donaldtrump";
+		sound[] = {"\radio\sounds\donaldtrump.ogg", db+7, 1}; //db kann von -10 zu 10 reichen sonst fadeSound deaktivierung
+		titles[] = {};
 	};
 };
