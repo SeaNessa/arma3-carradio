@@ -5,7 +5,7 @@
 	Description:
 	Updates the HUD when it needs to.
 */
-private["_ui","_food","_water","_health","volume"];
+private["_ui","_food","_water","_health","_radioUI","_volume"];
 disableSerialization;
 
 _ui = uiNameSpace getVariable ["playerHUD",displayNull];
@@ -29,6 +29,6 @@ _health ctrlSetPosition [safeZoneX+safeZoneW-0.090,safeZoneY+safeZoneH-0.506];
 _health ctrlSetText format["%1", round((1 - (damage player)) * 100)];
 _health ctrlCommit 0;
 //Update Radio Volume
-_health ctrlSetPosition [safeZoneX+safeZoneW-0.090,safeZoneY+safeZoneH-0.460];
-_health ctrlSetText format["%1", life_volume];
-_health ctrlCommit 0;
+_volume ctrlSetPosition [safeZoneX+safeZoneW-0.090,safeZoneY+safeZoneH-0.460];
+_volume ctrlSetText format["%1", life_volume];
+_volume ctrlCommit 0;
