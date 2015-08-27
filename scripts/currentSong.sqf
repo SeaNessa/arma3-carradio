@@ -5,15 +5,15 @@
 	Author: Sean (github.com/SeaNessa)
 */
 
-if (life_radioOn == true) exitWith {};
+if (life_radioOn) exitWith {};
 
 class Songs {
-	case donaldtrump {
+	class donaldtrump {
 					file	"\a3l_carradio\sounds\donaldtrump.ogg";
 					volume	"1.0";
 					number	"1"; //späterer nutzen bei playlists und für die case abfrage
 	};
-	case default {
+	class default {
 					file	"";
 					volume	"1.0";
 					number	"0";
